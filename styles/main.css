@@ -42,16 +42,25 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-    animation: up 350ms ease-out;
+    opacity: 0;
+    animation: up 1250ms ease-out;
 }
 
 @keyframes up {
-    from{
+    0%{
         opacity: 0;    
     }
-    to{
+    25%{
         opacity: 1;
+    }
+    50%{
+        opacity: 0.75;
+    }
+    75%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
     }
 }
 
