@@ -6,6 +6,14 @@
     box-sizing: border-box;
 }
 
-body {
+html {
     font-family: 'Roboto', sans-serif;
+}
+
+header {
+/* Posicionar */
+    display: flex;
+/* Alinhar */
+    align-items: center;
+    justify-content: space-between;
 }
