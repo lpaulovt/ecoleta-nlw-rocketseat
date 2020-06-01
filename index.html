@@ -7,9 +7,13 @@
     <title>Ecoleta</title>
 
     <link rel="stylesheet" href="/styles/main.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 
 <body>
+    <div id="load">
+        <img src="/assets/loader.svg" alt="Logo do Ecoleta" class="loader">
+    </div>
     <div id="page-home">
         <div class="content">
             <header>
@@ -27,8 +31,12 @@
         </div>    
     </div>
 
-<script>
-    
+<script type="text/javascript">
+    jQuery(window).ready(function(){
+        jQuery('#page-home').delay(100).fadeIn("fast")
+        jQuery("#load").delay(1000).fadeOut("slow");
+
+    })
 </script>
 </body>
 

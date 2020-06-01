@@ -2,6 +2,7 @@
 
 :root {
     --title-text: #322153;
+    --bg-color: #E5E5E5;
     --primary-color: #34cb79;
 }
 
@@ -20,6 +21,40 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+#load {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    z-index: 99999;
+
+    width: 100%;
+    height: 100%;
+    
+    background: var(--bg-color);
+}
+
+#load .loader {
+    width: 64px;
+    height: 64px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    animation: up 350ms ease-out;
+}
+
+@keyframes up {
+    from{
+        opacity: 0;    
+    }
+    to{
+        opacity: 1;
+    }
+}
+
 a {
     text-decoration: none;
 }
@@ -30,10 +65,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #page-home{
+    display: none;
     height: 100vh;
 
     background: url('../assets/home-background.svg') no-repeat;
-    background-position: 45vw 25vh; /* x,y - 35vw, bottom*/
+    background-position: 35vw 25vh; /* x,y - 35vw, bottom*/
 }
 
 #page-home .content {
@@ -70,6 +106,11 @@ h1, h2, h3, h4, h5, h6 {
 
     height: 20px;
     width: 20px;
+    transition: 200ms ease-in-out;
+}
+
+#page-home header a:hover span {
+    transform: translateX(5px);
 }
 
 #page-home main {
@@ -130,6 +171,11 @@ h1, h2, h3, h4, h5, h6 {
     background: url('../assets/search.svg') no-repeat;
     width: 20px;
     height: 20px;
+    transition: 200ms ease-in-out;
+}
+
+#page-home main a:hover span::after {
+    transform: scale(1.1);
 }
 
 #page-home main a strong {
@@ -139,7 +185,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-@media (max-width: 900px)  {
+@media (max-width: 950px)  {
     #page-home {
         background-position-x: 70vw;    
     } 
