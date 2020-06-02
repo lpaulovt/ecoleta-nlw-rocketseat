@@ -25,7 +25,8 @@
 
 <p align="center">
   <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;
-  <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;
+  <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;
+  <a href="#beyond-the-proposed-project">Beyond the proposed project</a>
 </p>
 <img alt="Ecoleta Screenshot" src=".github/ecoleta-screenshot.svg" max-width="960" max-height="674">
 
@@ -35,7 +36,10 @@ This project was developed at the [RocketSeat Next Level Week](https://nextlevel
 
 -  [HTML]()
 -  [CSS]()
+-  [JavaScript]()
 -  [jQuery](https://jquery.com/)
+
+##  Beyond the proposed project
 
 ## :information_source: How To Use
 
