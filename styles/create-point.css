@@ -1,0 +1,66 @@
+#page-create-point {
+    width: 90%;
+    max-width: 1100px;
+
+    margin: 0 auto;
+}
+
+#page-create-point header {
+    margin-top: 48px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#page-create-point header a span {
+    background: url('../assets/arrow-left.svg');
+    width: 20px;
+    height: 24px;
+
+    display: flex;
+    margin-right: 16px;
+     
+}
+
+#page-create-point header a {
+    display: flex;
+    align-items: center;
+
+    color: var(--title-text);
+    font-weight: 700;
+    
+}
+
+form {
+    width: 60%;
+    max-width: 736px;
+
+    margin: 80px auto 120px;
+    padding: 64px;
+
+    background: #ffffff;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+}
+
+form h1 {
+    width: 100%;
+    max-width: 270px;
+
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 41px;
+
+    margin-bottom: 64px;
+    
+}
+
+form h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+    margin-bottom: 40px;
+}
