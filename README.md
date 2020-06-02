@@ -1,9 +1,8 @@
 <h1 align="center">
     <img alt="Ecoleta" src=".github/logo.svg" />
     <br>
-    <img alt="Ecoleta" src=".github/nextlevelweek.svg" width="89" height="70" />
-    <br>
-    Ecoleta
+    <img alt="Ecoleta" src=".github/nextlevelweek.svg" width="79" height="60" />
+
 </h1>
 
 <h4 align="center">
@@ -29,7 +28,7 @@
   <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;
 </p>
 <br>
-<img alt="Ecoleta Screenshot" src=".github/ecoleta-screenshot.svg">
+<img alt="Ecoleta Screenshot" src=".github/ecoleta-screenshot.svg" width="960" height="674">
 
 ## :rocket: Technologies
 
@@ -51,7 +50,7 @@ $ git clone https://github.com/lpaulovt/ecoleta-nlw-rocketseat
 $ cd ecoleta-nlw-rocketseat
 
 # Run the app
-$ Open in your Browser
+$ Open in your browser
 ```
 ---
 
