@@ -27,7 +27,7 @@
   <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;
   <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;
 </p>
-<img alt="Ecoleta Screenshot" src=".github/ecoleta-screenshot.svg" width="960" height="674">
+<img alt="Ecoleta Screenshot" src=".github/ecoleta-screenshot.svg" max-width="960" max-height="674">
 
 ## :rocket: Technologies
 
