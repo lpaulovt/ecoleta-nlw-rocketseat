@@ -6,7 +6,7 @@
 </h1>
 
 <h4 align="center">
-  List your favorite GitHub repositories and see information and issues for each of them.
+  Help people find collection points for recycling.
 </h4>
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/lpaulovt/ecoleta-nlw-rocketseat.svg">
