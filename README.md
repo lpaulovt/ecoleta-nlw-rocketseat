@@ -41,6 +41,12 @@ This project was developed at the [RocketSeat Next Level Week](https://nextlevel
 
 ##  Beyond the proposed project
 
+- Added loading page (jQuery)
+
+<img alt="Ecoleta loading page screenshot" src=".github/loader-page-screenshot.png">
+
+- Added button animations (scale() and translateX())
+
 ## :information_source: How To Use
 
 To clone and run this application, you'll need [Git](https://git-scm.com). From your command line:
