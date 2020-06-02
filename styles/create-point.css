@@ -20,7 +20,12 @@
 
     display: flex;
     margin-right: 16px;
-     
+    
+    transition: 200ms ease-in-out;
+}
+
+#page-create-point header a:hover span {
+    transform: translateX(5px);
 }
 
 #page-create-point header a {
