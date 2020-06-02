@@ -53,4 +53,4 @@ $ Open in your browser
 ```
 ---
 
-Made with ♥ by Paulo Lopes :wave: [Get in touch!](https://www.linkedin.com/in/lpaulovt)
+Made with ❤ by Paulo Lopes :wave: [Get in touch!](https://www.linkedin.com/in/lpaulovt)
