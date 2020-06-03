@@ -40,3 +40,52 @@ function getCities(event){
 }
 
 ufSelect.addEventListener("change", getCities)
+
+
+//Itens de coleta
+
+const itemsToCollect = document.querySelectorAll(".items-grid li")
+
+//Input hidden para enviar os id's do array selectedItems junto com os dados do formulário
+const collectedItems = document.querySelector("[name=items]")
+
+//Para cada item clicado do grid executar a função handleSelectedItem
+for (item of itemsToCollect){
+    item.addEventListener("click", handleSelectedItem)
+}
+
+//Array com os id's
+let selectedItems = []
+
+function handleSelectedItem(event){
+    //Pega o item clicado
+    const item = event.target
+
+    //Adicionar a classe .selected nele
+    item.classList.toggle("selected")
+
+    //Vai pegar o id do item clicado
+    const itemId = item.dataset.id
+
+    //verificar se os itens que foram selecionados existem, se sim pegar ele
+    const alreadySelected = selectedItems.findIndex( item => item == itemId)
+
+    //se tive selecionado 
+    if (alreadySelected>=0){
+
+    //se ele tiver vai tirar a seleção
+        const filteredItems = selectedItems.filter( item => {
+            const itemIsDifferent = item != itemId
+            return itemIsDifferent
+        }) 
+
+        selectedItems = filteredItems
+        
+    } else {
+        //se não tiver vai adicionar
+        selectedItems.push(itemId)
+    }
+
+    //atualizar o input com o valor do array com os id's dos itens selecionados
+    collectedItems.value = selectedItems
+}
