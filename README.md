@@ -47,6 +47,10 @@ This project was developed at the [RocketSeat Next Level Week](https://nextlevel
 
 - Added button animations (scale() and translateX())
 
+- Added Collect item hover animation (translateY())
+
+<img alt="Collect items hover animation screenshot" src=".github/collected-item.png">
+
 ## :information_source: How To Use
 
 To clone and run this application, you'll need [Git](https://git-scm.com). From your command line:

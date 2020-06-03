@@ -40,3 +40,9 @@
         background-position-y: 200px;    
     } 
 }
+
+@media (max-width:850px){
+    form .items-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
