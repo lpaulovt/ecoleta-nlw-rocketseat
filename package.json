@@ -1,0 +1,20 @@
+{
+  "name": "nlw-ecoleta",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">\r     <img alt=\"Ecoleta\" src=\".github/logo.svg\" width=\"364\" height=\"88\"/>\r     <br>\r     <img alt=\"Ecoleta\" src=\".github/nextlevelweek.svg\" width=\"79\" height=\"60\" />",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lpaulovt/ecoleta-nlw-rocketseat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lpaulovt/ecoleta-nlw-rocketseat/issues"
+  },
+  "homepage": "https://github.com/lpaulovt/ecoleta-nlw-rocketseat#readme"
+}
