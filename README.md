@@ -53,7 +53,7 @@ This project was developed at the [RocketSeat Next Level Week](https://nextlevel
 
 ## :information_source: How To Use
 
-To clone and run this application, you'll need [Git](https://git-scm.com). From your command line:
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js v10.16][nodejs] or higher. From your command line:
 
 ```bash
 # Clone this repository
@@ -62,9 +62,14 @@ $ git clone https://github.com/lpaulovt/ecoleta-nlw-rocketseat
 # Go into the repository
 $ cd ecoleta-nlw-rocketseat
 
+# Install dependencies
+$ npm i
+
 # Run the app
-$ Open in your browser
+$ npm start
 ```
 ---
 
 Made with ❤ by Paulo Lopes :wave: [Get in touch!](https://www.linkedin.com/in/lpaulovt)
+
+[nodejs]: https://nodejs.org/
