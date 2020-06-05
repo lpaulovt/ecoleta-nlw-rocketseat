@@ -71,7 +71,6 @@ module.exports = db
     //     }
 
     //     console.log("Registro deletado com sucesso")
-    //     console.log(rows)
     // })
 
 
