@@ -20,6 +20,10 @@ server.get('/create-point', function(req, res){
     return res.render('create-point.html')
 })
 
+server.post('/save-point', (req, res) => {
+    return res.send("ok")
+})
+
 server.get('/search', function(req, res){
     //Pegar dados
 
@@ -28,7 +32,9 @@ server.get('/search', function(req, res){
             return console.log(err)
         }
 
-        return res.render('search-results.html', { places: rows})
+        const total = rows.length;
+
+        return res.render('search-results.html', { places: rows, total})
     })
 })
 
