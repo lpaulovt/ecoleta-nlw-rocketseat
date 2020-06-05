@@ -38,6 +38,9 @@ This project was developed at the [RocketSeat Next Level Week](https://nextlevel
 -  [CSS]()
 -  [JavaScript]()
 -  [jQuery](https://jquery.com/)
+-  [Node.js]()
+-  [Express]()
+-  [SQLite]()
 
 ##  Beyond the proposed project
 
