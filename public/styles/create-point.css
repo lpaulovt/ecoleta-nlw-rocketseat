@@ -138,6 +138,7 @@ form button {
 
     margin-top: 40px;
 
+    cursor: pointer;
     transition: background 400ms ease-out;
 }
 
