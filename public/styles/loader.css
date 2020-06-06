@@ -21,7 +21,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0;
-    animation: up 1850ms ease-out;
+    animation: up 1250ms ease-out;
 }
 
 @keyframes up {

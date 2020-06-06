@@ -103,9 +103,15 @@
 
 {% block modal %}
 {% if saved %}
-    {% include "partials/point-created.html" %}
+    {% include "partials/point-created.html" %}  
+{% endif%}
+
+{% if falha %}
+{% include "partials/error-create-point.html" %}
 {% endif%}
 {% endblock modal %}
+
+
 
 {% block scripts %}
 <script src="/scripts/create-point.js"></script>
