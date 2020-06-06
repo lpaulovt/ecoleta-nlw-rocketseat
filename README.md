@@ -54,6 +54,10 @@ This project was developed at the [RocketSeat Next Level Week](https://nextlevel
 
 <img alt="Collect items hover animation screenshot" src=".github/collected-item.png">
 
+- Added screen error
+
+<img alt="Error page screenshot" src=".github/error-modal.png">
+
 ## :information_source: How To Use
 
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js v10.16][nodejs] or higher. From your command line:
