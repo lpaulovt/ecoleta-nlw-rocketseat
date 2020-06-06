@@ -40,6 +40,7 @@ This project was developed at the [RocketSeat Next Level Week](https://nextlevel
 -  [jQuery](https://jquery.com/)
 -  [Node.js]()
 -  [Express]()
+-  [Nunjucks]()
 -  [SQLite]()
 
 ##  Beyond the proposed project
